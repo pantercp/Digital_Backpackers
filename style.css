@@ -28,6 +28,22 @@ a:active {
     --main: #172A3A;
 }
 
+button{
+    padding: 0.25rem 1rem;
+    border: 2px solid var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+    border-radius: 1rem;
+    margin: 1rem 0;
+    transition: all 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    font-size: 0.7rem;
+    color: var(--main);
+    background-color: var(--primary);
+}
+
 /* --------Header Navigation-------- */
 
 nav {
@@ -213,12 +229,27 @@ nav .logo-image img {
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
+    padding: 20rem 0;
 }
 
 /* About info */
 
-.background-about h2{
-    
+.container-about{
+    padding: 2rem 0.5rem;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: var(--primary);
+}
+.container-about h2{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+
+}
+.container-about p{
+    text-align: justify;
+    font-size: 0.8rem;
+    max-width: 600px;
+    margin: auto;
 }
 
 
