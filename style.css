@@ -229,10 +229,8 @@ nav .logo-image img {
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
-    padding: 20rem 0;
+    padding: 10rem 0;
 }
-
-/* About info */
 
 .container-about{
     padding: 2rem 0.5rem;
@@ -252,9 +250,67 @@ nav .logo-image img {
     margin: auto;
 }
 
+/* ---------Working Remote-------- */
 
+.container-remote{
+    background-color: var(--primary);
+    color: var(--main);
+    padding: 1rem 0.5rem;
+}
+.content-remote{
+    max-width: 600px;
+    margin: auto;
+}
+.container-remote h2{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.container-remote p{
+    text-align: justify;
+    font-size: 0.8rem;
+}
 
+/* ---------Blog-------- */
 
+.container-blog{
+    background-color: var(--main);
+    color: var(--primary);
+    padding: 1rem 0.5rem;
+}
+.content-blog{
+    max-width: 600px;
+    margin: auto;
+}
+.container-blog h2{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.container-blog p{
+    text-align: justify;
+    font-size: 0.8rem;
+}
+
+/* ---------Stays-------- */
+
+.container-stays{
+    background-color: var(--primary);
+    color: var(--main);
+    padding: 1rem 0.5rem;
+}
+.content-stays{
+    max-width: 600px;
+    margin: auto;
+}
+.container-stays h2{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.container-stays p{
+    text-align: justify;
+    font-size: 0.8rem;
+    max-width: 600px;
+    margin: auto;
+}
 
 /* -------------Footer------------ */
 
