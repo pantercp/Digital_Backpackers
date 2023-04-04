@@ -354,6 +354,33 @@ nav .logo-image img {
     text-align: center;
 }
 
+/* ----------Featured-------- */
+
+.featured-content{
+    height: 100%;
+    background-image: url(images/destinations-remote.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 13rem 0;
+}
+.featured-about{
+    padding: 2rem 0.5rem;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: var(--primary);
+}
+.featured-about h2{
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+}
+.featured-about p{
+    text-align: justify;
+    font-size: 0.8rem;
+    max-width: 600px;
+    margin: auto;
+}
+
 /* ---------Stays-------- */
 
 .container-stays{
