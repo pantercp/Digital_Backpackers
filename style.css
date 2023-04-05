@@ -452,11 +452,19 @@ nav .logo-image img {
     color: var(--main);
     padding: 1rem 0;
 }
+.services-section h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
 .service-choice{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
 }
 .service-item{
+    max-width: 300px;
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -475,13 +483,26 @@ nav .logo-image img {
 .service-item h3{
     margin: 0.5rem;
 }
-
-.service-choice ul{
-    list-style: none;
+.service-item p{
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+.contain-features{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.service-item span.features{
+    display: inline;
+    border: 1px solid var(--primary);
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.5rem;
+    margin: 0.25rem;
 }
 .contain-services {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     max-width: 600px;
     margin: auto;
 }
@@ -491,19 +512,16 @@ nav .logo-image img {
     flex-direction: column;
     align-items: center;
 }
-.services-section h2 {
-    text-align: center;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
-.services-section p {
-    font-size: 0.8rem;
-    text-align: justify;
-}
-.services-section img {
+.contain-services img {
     max-width: 100%;
     border-radius: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid var(--secondary);
 }
+.contain-services h3{
+    margin: 0.5rem;
+}
+
 
 /* ---------Stays-------- */
 
