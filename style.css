@@ -472,7 +472,7 @@ nav .logo-image img {
     font-size: 0.9rem;
     background-color: var(--main);
     color: var(--primary);
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     border: 2px solid var(--secondary);
 }
@@ -482,9 +482,10 @@ nav .logo-image img {
 }
 .service-item h3{
     margin: 0.5rem;
+    font-size: 1.7rem;
 }
 .service-item p{
-    margin: 0.5rem 0;
+    margin: 0 0 0.5rem 0;
     font-size: 0.8rem;
     text-align: justify;
 }
@@ -495,6 +496,7 @@ nav .logo-image img {
 }
 .service-item span.features{
     display: inline;
+    font-size: 0.8rem;
     border: 1px solid var(--primary);
     border-radius: 0.5rem;
     padding: 0.1rem 0.5rem;
