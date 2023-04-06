@@ -202,7 +202,7 @@ nav .logo-image img {
     background-image: url(images/1.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .header img {
@@ -248,8 +248,8 @@ nav .logo-image img {
     background-image: url(images/about-us.jpg);
     background-size: cover;
     background-position: top;
-    background-attachment: fixed;
-    padding: 10rem 0;
+    /* background-attachment: fixed; */
+    padding: 15rem 0;
 }
 
 .container-about {
@@ -384,7 +384,7 @@ nav .logo-image img {
     background-image: url(images/destinations-remote.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     padding: 13rem 0;
 }
 
