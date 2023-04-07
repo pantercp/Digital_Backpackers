@@ -59,7 +59,12 @@ button.dark:hover {
 }
 
 /* --------Header Navigation-------- */
-
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    height: 10vh;
+}
 nav {
     display: flex;
     background-color: var(--main);
