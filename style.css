@@ -301,14 +301,19 @@ nav .logo-image img {
     padding: 0.5rem;
     text-align: center;
 }
-
+.container-remote span {
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: left;
+}
 .container-remote p {
     text-align: justify;
     margin-bottom: 0.5rem;
 }
-
-.container-remote span {
-    font-style: italic;
+.container-remote span.title {
+    /* font-style: italic; */
+    font-size: 1.1rem;
     font-weight: bold;
     text-align: left;
 }
