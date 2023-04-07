@@ -25,7 +25,7 @@ a:active {
 :root {
     --primary: #69D1C5;
     --secondary: #004346;
-    --main: #172A3A;
+    --main: #172a3a;
 }
 
 button {
@@ -203,47 +203,61 @@ nav .logo-image img {
 /* ---------Hero Section-------- */
 
 .header {
-    height: 100%;
+    height: 75%;
+    position: relative;
     background-image: url(images/1.png);
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
 }
-
 .header img {
     width: 170px;
     float: left;
 }
+.header h1{
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
+    color: var(--secondary);
+}
+
+.header-links{
+    position: absolute;
+    background-color: var(--main);
+    border-radius: 0.5rem;
+    bottom: 0;
+    right: 0;
+    max-width: 150px;
+    overflow: hidden;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.header-links h2{
+    margin: 0.25rem 0;
+    font-size: 1rem;
+}
+.header-links a{
+    font-size: 0.8rem;
+}
+
 
 /* ----------Introduction-------- */
 .intro-section {
     max-width: 800px;
     margin: auto;
 }
-
 .container-intro {
     padding: 1rem;
 }
-
 .container-intro h1 {
     margin: 1rem 0;
+    text-align: center;
+    font-size: 1.8rem;
 }
-
 .container-intro p {
     text-align: justify;
-}
-
-.tag-links {
-    margin: 1rem;
-}
-
-.tag-links span {
-    font-size: 0.9rem;
-    display: inline-block;
-    border: 1px solid var(--primary);
-    padding: 0.25rem 0.5rem;
-    margin: 0.25rem;
-    border-radius: 1rem;
+    margin: 0 0 1.5rem 0;
 }
 
 /* ----------About Us-------- */
@@ -253,28 +267,28 @@ nav .logo-image img {
     background-image: url(images/about-us.jpg);
     background-size: cover;
     background-position: top;
-    /* background-attachment: fixed; */
     padding: 15rem 0;
 }
 
 .container-about {
-    padding: 2rem 0.5rem;
+    padding: 1rem 0.5rem;
     background: rgba(0, 0, 0, 0.7);
     text-align: center;
     color: var(--primary);
 }
-
 .container-about h2 {
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
 
 }
-
 .container-about p {
     text-align: justify;
     font-size: 0.8rem;
     max-width: 600px;
     margin: auto;
+}
+.container-about button{
+    margin: 1rem 0 0 0;
 }
 
 /* ---------Working Remote-------- */
@@ -285,7 +299,6 @@ nav .logo-image img {
     text-align: center;
     padding: 1rem 0;
 }
-
 .container-remote {
     padding: 0rem 0.5rem;
     max-width: 600px;
@@ -294,53 +307,47 @@ nav .logo-image img {
     justify-content: center;
     align-items: flex-start;
 }
-
 .content-remote-text {
     max-width: 600px;
     margin: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
-
 .remote-section h2 {
     font-size: 1.8rem;
-    padding: 0.5rem;
+    padding: 1rem 0.5rem;
     text-align: center;
 }
 .container-remote span {
     font-style: italic;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: bold;
     text-align: left;
 }
 .container-remote p {
     text-align: justify;
-    margin-bottom: 0.5rem;
+    margin: 0rem 0 1.5rem 0;
 }
 .container-remote span.title {
-    /* font-style: italic; */
-    font-size: 1.1rem;
+    font-style: normal;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: left;
 }
-
 .container-remote ul {
     font-size: 0.8rem;
     list-style: none;
-    margin: 0.25rem 0;
+    margin: 0.25rem 0 1rem 0;
     text-align: left;
 }
-
 .container-remote li {
     margin: 0.2rem 0;
 }
-
 .container-remote img {
     width: 45%;
     border-radius: 0.5rem;
     margin: 0.5rem;
     max-width: 350px;
 }
-
 .remote-section button {
     font-size: 0.7rem;
 }
@@ -394,27 +401,26 @@ nav .logo-image img {
     background-image: url(images/destinations-remote.jpg);
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
     padding: 13rem 0;
 }
-
 .featured-about {
-    padding: 2rem 0.5rem;
+    padding: 1rem 0.5rem;
     background: rgba(0, 0, 0, 0.7);
     text-align: center;
     color: var(--primary);
 }
-
 .featured-about h2 {
     margin-bottom: 0.5rem;
     font-size: 1.6rem;
 }
-
 .featured-about p {
     text-align: justify;
     font-size: 0.8rem;
     max-width: 600px;
     margin: auto;
+}
+.featured-about button{
+    margin-bottom: 0;
 }
 
 /* --------Expenses------- */
