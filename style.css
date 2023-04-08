@@ -522,40 +522,33 @@ nav .logo-image img {
     color: var(--main);
     padding: 1rem 0;
 }
-
 .services-section h2 {
     text-align: center;
     font-size: 2.3rem;
     margin-bottom: 1rem;
 }
-
 .contain-services {
     display: flex;
     justify-content: space-around;
     max-width: 600px;
     margin: auto;
 }
-
 .services {
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .contain-services img {
     max-width: 100%;
     border-radius: 0.5rem;
     border-radius: 50%;
     border: 1px solid var(--secondary);
     box-shadow: 0.15rem 0.15em 0.5rem rgb(23, 42, 58, 0.7);
-
 }
-
 .contain-services h3 {
     margin: 0.5rem;
 }
-
 .service-choice {
     display: flex;
     justify-content: center;
@@ -563,9 +556,8 @@ nav .logo-image img {
     flex-wrap: wrap;
     margin: 1rem;
 }
-
 .service-item {
-    max-width: 300px;
+    max-width: 400px;
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -579,17 +571,14 @@ nav .logo-image img {
     box-shadow: 0.3rem 0.3em 0.5rem rgb(23, 42, 58, 0.7);
 
 }
-
 .services-section i {
     font-size: 3rem;
     margin: 0.5rem;
 }
-
 .service-item h3 {
     margin: 0.5rem;
     font-size: 1.3rem;
 }
-
 .service-item p {
     margin: 0 0 0.5rem 0;
     font-size: 0.8rem;
