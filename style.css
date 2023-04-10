@@ -163,7 +163,7 @@ nav .logo-image img {
 
 .drop-menu.open {
     margin: 0;
-    height: 70vh;
+    height: auto;
     overflow: hidden;
     padding: 0.5rem;
 }
@@ -179,30 +179,47 @@ nav .logo-image img {
     justify-content: center;
     align-items: center;
 }
-
 .drop-list a {
     color: var(--main);
     font-size: 1.5rem;
     text-decoration: none;
 }
-
 .drop-list li {
     text-align: center;
     padding: 0.35rem;
 }
-
 .social-links {
     display: flex;
     justify-content: center;
     position: absolute;
     bottom: 20px;
 }
-
 .social-links i {
     color: var(--main);
     font-size: 1.5rem;
     padding: 1rem 1rem 0rem 1rem
 }
+/* --Sub Blog List-- */
+
+.drop-btn{
+    font-size: 1.2rem;
+    transition: all 0.5s;
+    margin: 0 0.5rem;
+    transform: translateY(10px);
+    position: absolute;
+}
+.drop-btn.open{
+    transform: rotate(180deg) translateY(-7px);
+}
+.blog-list{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.blog-list.open{
+    height: 100%;
+}
+
 
 /* ---------Hero Section-------- */
 

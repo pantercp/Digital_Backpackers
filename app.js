@@ -13,3 +13,11 @@ burgerBtn.addEventListener('click', () => {
     menuOpen = false;
   }
 });
+
+const blogDrop = document.querySelector('.drop-btn');
+const blogList = document.querySelector('.blog-list');
+
+blogDrop.addEventListener('click', () => {
+  blogList.classList.toggle('open');
+  blogDrop.classList.toggle('open');
+});
