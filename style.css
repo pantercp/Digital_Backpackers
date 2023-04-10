@@ -156,7 +156,6 @@ nav .logo-image img {
     align-items: center;
     height: 0px;
     overflow: hidden;
-    transition: all .5s ease-in-out;
     background-color: var(--primary);
     color: var(--main);
 }
@@ -170,7 +169,6 @@ nav .logo-image img {
 
 .drop-menu ul {
     list-style: none;
-    margin: 0;
 }
 
 .drop-list {
@@ -179,44 +177,52 @@ nav .logo-image img {
     justify-content: center;
     align-items: center;
 }
+
 .drop-list a {
     color: var(--main);
     font-size: 1.5rem;
     text-decoration: none;
 }
+
 .drop-list li {
     text-align: center;
     padding: 0.35rem;
 }
+
 .social-links {
     display: flex;
     justify-content: center;
-    position: absolute;
+    /* position: absolute; */
     bottom: 20px;
 }
+
 .social-links i {
     color: var(--main);
     font-size: 1.5rem;
-    padding: 1rem 1rem 0rem 1rem
+    padding: 1rem 1rem 0.5rem 1rem;
 }
+
 /* --Sub Blog List-- */
 
-.drop-btn{
+.drop-btn {
     font-size: 1.2rem;
     transition: all 0.5s;
     margin: 0 0.5rem;
     transform: translateY(10px);
     position: absolute;
 }
-.drop-btn.open{
+
+.drop-btn.open {
     transform: rotate(180deg) translateY(-7px);
 }
-.blog-list{
+
+.blog-list {
     height: 0;
     overflow: hidden;
     transition: all 0.5s;
 }
-.blog-list.open{
+
+.blog-list.open {
     height: 100%;
 }
 
@@ -539,23 +545,27 @@ nav .logo-image img {
     color: var(--main);
     padding: 1rem 0;
 }
+
 .services-section h2 {
     text-align: center;
     font-size: 2.3rem;
     margin-bottom: 1rem;
 }
+
 .contain-services {
     display: flex;
     justify-content: space-around;
     max-width: 600px;
     margin: auto;
 }
+
 .services {
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .contain-services img {
     max-width: 100%;
     border-radius: 0.5rem;
@@ -563,9 +573,11 @@ nav .logo-image img {
     border: 1px solid var(--secondary);
     box-shadow: 0.15rem 0.15em 0.5rem rgb(23, 42, 58, 0.7);
 }
+
 .contain-services h3 {
     margin: 0.5rem;
 }
+
 .service-choice {
     display: flex;
     justify-content: center;
@@ -573,6 +585,7 @@ nav .logo-image img {
     flex-wrap: wrap;
     margin: 1rem;
 }
+
 .service-item {
     max-width: 400px;
     margin: 0.5rem;
@@ -588,14 +601,17 @@ nav .logo-image img {
     box-shadow: 0.3rem 0.3em 0.5rem rgb(23, 42, 58, 0.7);
 
 }
+
 .services-section i {
     font-size: 3rem;
     margin: 0.5rem;
 }
+
 .service-item h3 {
     margin: 0.5rem;
     font-size: 1.3rem;
 }
+
 .service-item p {
     margin: 0 0 0.5rem 0;
     font-size: 0.8rem;
@@ -805,5 +821,18 @@ nav .logo-image img {
 
     .contain-services {
         flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    nav .logo-title {
+        font-size: 1.1rem;
+    }
+    .contain-expenses img {
+        max-width: 90%;
+    }
+    .stays-coming i {
+        font-size: 2rem;
     }
 }
