@@ -226,7 +226,46 @@ nav .logo-image img {
     height: 100%;
 }
 
+/* ------Table of Contents----- */
+.contain-contents{
+    display: flex;
+}
+.content-list{
+    background-color: #172a3a;
+    color: #69D1C5;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: auto;
 
+}
+.content-list h5{
+    margin-bottom: 0.25rem;
+}
+.content-list ul{
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+/* --------Content------- */
+
+.container{
+    background-color: #69D1C5;
+    color: #172a3a;
+}
+.article{
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem 0;
+}
+.article h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.article p{
+    text-align: justify;
+    margin: 1rem 0;
+}
 
 
 /* -------------Footer------------ */
