@@ -229,6 +229,8 @@ nav .logo-image img {
 /* ------Table of Contents----- */
 .contain-contents{
     display: flex;
+    position: sticky;
+    top: 100px;
 }
 .content-list{
     background-color: #172a3a;
@@ -237,7 +239,13 @@ nav .logo-image img {
     border-radius: 0.5rem;
     text-align: center;
     margin: auto;
-
+}
+.content-list i{
+    background-color: #69D1C5;
+    color: #172a3a;
+    padding: 0.1rem;
+    border-radius: 0.1rem;
+    margin-left: 1rem;
 }
 .content-list h5{
     margin-bottom: 0.25rem;
@@ -245,6 +253,13 @@ nav .logo-image img {
 .content-list ul{
     list-style: none;
     font-size: 0.8rem;
+}
+.toc-list{
+    display: none;
+    overflow: hidden;
+}
+.toc-list.open{
+    display: block;
 }
 
 /* --------Content------- */
