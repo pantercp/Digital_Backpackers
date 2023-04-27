@@ -698,6 +698,20 @@ nav .logo-image img {
     background-color: var(--main);
 }
 
+.footer-backpackers-about .contain-logo {
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+    padding: 13px 10px 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.footer-backpackers-about img {
+    width: 100%;
+}
+
+
+
 .container-footer a {
     text-decoration: none;
     font-size: 0.8em;
