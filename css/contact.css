@@ -256,6 +256,8 @@ nav .logo-image img {
     text-align: justify;
 }
 
+/* -------------Travel Stats------------ */
+
 .contain-travel-stats {
     display: flex;
     justify-content: space-evenly;
@@ -263,7 +265,7 @@ nav .logo-image img {
     margin: auto;
 }
 
-.travel-stats{
+.travel-stats {
     text-align: center;
     margin: 1rem 0.5rem 0.5rem 0.5rem;
 }
@@ -291,8 +293,63 @@ nav .logo-image img {
     font-size: 1.5rem;
 }
 
+/* -------------Profiles------------ */
 
+.contain-profiles {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.profile-card {
+    max-width: 280px;
+    background-color: #172a3a;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    color: #69D1C5;
+    border: 2px solid var(--secondary);
+    box-shadow: 0.3rem 0.3em 0.5rem rgb(23, 42, 58, 0.7);
+    border-radius: 0.5rem;
+}
+
+.profile-card h3 {
+    color: #00949c;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.profile-card h4 {
+    color: #00949c;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.profile-card p {
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.profile-card span {
+    color: #69D1C5;
+}
+
+.profile-card img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-card span {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 480px){
+    .contain-profiles{
+        flex-wrap: wrap;
+    }
+}
 
 
 /* -------------Footer------------ */
