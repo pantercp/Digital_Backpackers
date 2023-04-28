@@ -5,5 +5,3 @@ ToCbtn.addEventListener('click', () => {
   ToCbtn.classList.toggle('open');
   ToClist.classList.toggle('open');
 });
-
-alert("I am here!");
