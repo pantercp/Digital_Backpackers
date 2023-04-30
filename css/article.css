@@ -278,6 +278,50 @@ table{
     padding: 0.25rem 0.5rem;
 }
 
+/* ---------Budgeting Tips---- */
+
+.contain-tips{
+    margin: 0.5rem;
+}
+.budgeting-tips{
+    background-color: #172a3a;
+    color: #69D1C5;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+.tip-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.budgeting-tips p{
+    display: none;
+}
+.budgeting-tips.open p{
+    display: block;
+}
+.btn-reveal{
+    width: 20px;
+    height: 3px;
+    border-radius: 0.5rem;
+    background: #69D1C5;
+}
+.btn-reveal::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    border-radius: 0.5rem;
+    background: #69D1C5;
+    transform: rotate(90deg) translate(0px, 0px);
+    transition: all 0.2s;
+}
+.budgeting-tips.open .btn-reveal::before{
+    transform: rotate(0deg) translate(0px, 0px);
+}
+
+
 
 
 /* --------Content------- */
