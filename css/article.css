@@ -262,6 +262,24 @@ nav .logo-image img {
     display: block;
 }
 
+/* ---------Expenses Table------ */
+
+table{
+    color: #172a3a;
+    margin: 1rem auto;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+}
+.expenses-header{
+    text-align: center;
+}
+.expenses td{
+    border: 1px solid #172a3a;
+    padding: 0.25rem 0.5rem;
+}
+
+
+
 /* --------Content------- */
 
 .container{
