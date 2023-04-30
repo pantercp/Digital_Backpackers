@@ -6,9 +6,10 @@ ToCbtn.addEventListener('click', () => {
   ToClist.classList.toggle('open');
 });
 
-const Tipsbtn = document.querySelector(".tip-header");
-const Tipsdetail = document.querySelector(".budgeting-tips");
+const Tipsbtns = document.querySelectorAll(".tip-header");
 
-Tipsbtn.addEventListener('click', () => {
-  Tipsdetail.classList.toggle('open');
+for(let Tipsbtn of Tipsbtns){
+  Tipsbtn.addEventListener('click', () => {
+  Tipsbtn.parentElement.classList.toggle('open');
 });
+};
