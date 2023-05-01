@@ -362,6 +362,15 @@ table{
     text-align: center;
 }
 
+/* -------Text Styling------- */
+
+h2.main-head{
+    text-align: center;
+    font-size: 3rem;
+    color: #004346;
+    margin: 2rem 0.25rem;
+}
+
 /* ----------List Styling------- */
 
 ul.standard{
