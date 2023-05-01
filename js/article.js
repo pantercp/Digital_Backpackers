@@ -6,7 +6,7 @@ ToCbtn.addEventListener('click', () => {
   ToClist.classList.toggle('open');
 });
 
-const Tipsbtns = document.querySelectorAll(".tip-header");
+const Tipsbtns = document.querySelectorAll(".accordion-header");
 
 for(let Tipsbtn of Tipsbtns){
   Tipsbtn.addEventListener('click', () => {

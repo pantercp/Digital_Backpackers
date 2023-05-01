@@ -278,27 +278,33 @@ table{
     padding: 0.25rem 0.5rem;
 }
 
-/* ---------Budgeting Tips---- */
+/* ---------Accordion Styling---- */
 
 .contain-tips{
     margin: 0.5rem;
 }
-.budgeting-tips{
+.accordion h3{
+    text-align: center;
+    text-decoration: underline;
+    margin: 1rem 0.25rem;
+}
+.accordion-container{
     background-color: #172a3a;
     color: #69D1C5;
     padding: 0.5rem;
     border-radius: 0.5rem;
     margin: 0.5rem;
+    box-shadow: 0.3rem 0.3em 0.5rem rgb(23, 42, 58, 0.7);
 }
-.tip-header{
+.accordion-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.budgeting-tips p{
+.accordion-container p{
     display: none;
 }
-.budgeting-tips.open p{
+.accordion-container.open p{
     display: block;
 }
 .btn-reveal{
@@ -317,7 +323,7 @@ table{
     transform: rotate(90deg) translate(0px, 0px);
     transition: all 0.2s;
 }
-.budgeting-tips.open .btn-reveal::before{
+.accordion-container.open .btn-reveal::before{
     transform: rotate(0deg) translate(0px, 0px);
 }
 
