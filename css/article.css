@@ -239,6 +239,7 @@ nav .logo-image img {
     border-radius: 0.5rem;
     text-align: center;
     margin: auto;
+    box-shadow: 0.3rem 0.3em 0.5rem rgb(23, 42, 58, 0.7);
 }
 .content-list i{
     background-color: #69D1C5;
@@ -339,7 +340,7 @@ table{
 .article{
     max-width: 800px;
     margin: auto;
-    padding: 2rem 0;
+    padding: 2rem 0.5rem;
 }
 .article h1{
     text-align: center;
@@ -348,6 +349,11 @@ table{
 .article p{
     text-align: justify;
     margin: 1rem 0;
+}
+span.it-bd-blck{
+    font-weight: bold;
+    display: block;
+    font-style: italic;
 }
 
 .contain-insta{
