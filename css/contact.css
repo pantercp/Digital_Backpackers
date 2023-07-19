@@ -231,20 +231,21 @@ nav .logo-image img {
 .content {
     background-color: #69D1C5;
     color: #172a3a;
-    padding: 1rem 0.5rem;
+}
+
+.hero-banner{
+    background-image: url(../images/desert.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: 0 60%;
 }
 
 .intro-about {
+    position: relative;
+    display: inline;
     max-width: 600px;
-    margin: auto;
-}
-
-.intro-about img {
-    width: 100%;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    border: 2px solid var(--secondary);
-    box-shadow: 0.3rem 0.3em 0.5rem rgb(23, 42, 58, 0.7);
+    top: 25%;
+    right: 0%;
 }
 
 .intro-about h1 {
@@ -254,6 +255,7 @@ nav .logo-image img {
 
 .intro-about p {
     text-align: justify;
+    max-width: 100%;
 }
 
 /* -------------Travel Stats------------ */
