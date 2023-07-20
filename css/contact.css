@@ -236,7 +236,7 @@ nav .logo-image img {
 /* --------Hero------- */
 
 
-.hero-banner{
+.hero-banner {
     background-image: url(../images/desert.jpg);
     background-size: cover;
     height: 700px;
@@ -265,7 +265,7 @@ nav .logo-image img {
 
 @media only screen and (max-width: 1100px) {
 
-    .hero-banner{
+    .hero-banner {
         background-position: 43% 60%;
     }
 
@@ -273,11 +273,11 @@ nav .logo-image img {
         right: 5%;
         max-width: 55%;
     }
-    
+
     .intro-about h1 {
         font-size: 1.8rem;
     }
-    
+
     .intro-about p {
         font-size: 0.9rem;
     }
@@ -291,11 +291,13 @@ nav .logo-image img {
         color: #172a3a;
         background-color: #69D1C5;
     }
-    .hero-banner{
+
+    .hero-banner {
         background-position: 17% 60%;
     }
 
 }
+
 /* -------------Travel Stats------------ */
 
 .contain-travel-stats {
@@ -336,7 +338,7 @@ nav .logo-image img {
 /* -------------Profiles------------ */
 
 .contain-profiles {
-    max-width: 600px;
+    /* max-width: 600px; */
     margin: auto;
     display: flex;
     justify-content: center;
@@ -344,14 +346,10 @@ nav .logo-image img {
     color: #69D1C5;
 }
 
-.profile-card span{
-    color: #00949c;
-}
-
 .profile-card {
-    max-width: 280px;
+    max-width: 50%;
     background-color: #172a3a;
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 1rem 0.5rem;
     color: #69D1C5;
     border: 2px solid var(--secondary);
@@ -359,68 +357,65 @@ nav .logo-image img {
     border-radius: 0.5rem;
 }
 
-.profile-card h3 {
-    font-size: 0.8rem;
-    text-align: center;
-    margin-bottom: 0.5rem;
-}
-
-.profile-card h4 {
-    font-size: 0.8rem;
-}
-
-.profile-card p {
-    font-size: 0.8rem;
-    text-align: justify;
-}
-
-.profile-card img {
-    max-width: 100%;
-    border-radius: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.profile-card span {
-    max-width: 100%;
-}
-
-@media only screen and (max-width: 480px){
-    .contain-profiles{
-        flex-wrap: wrap;
-    }
-}
-
-/* -------------Profiles------------ */
-/* 
-.contain-profiles {
-    max-width: 600px;
-    margin: auto;
+.profile-hero {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.profile-card {
-    max-width: 280px;
-    background-color: #172a3a;
-    padding: 1rem;
-    margin: 1rem 0.5rem;
-    color: #69D1C5;
-    border: 2px solid var(--secondary);
-    box-shadow: 0.3rem 0.3em 0.5rem rgb(23, 42, 58, 0.7);
-    border-radius: 0.5rem;
+.profile-detail {
+    padding: 0.5rem;
+    width: 100%;
 }
 
 .profile-card h3 {
-    color: #00949c;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .profile-card h4 {
-    color: #00949c;
     font-size: 0.8rem;
-    margin-top: 0.5rem;
+    margin-block: 0.5rem;
+}
+
+.profile-card span {
+    color: #00949c;
+}
+
+.profile-card .tab-titles ul{
+    margin: 1rem 0 0.5rem 0;
+    list-style: none;
+    display: flex;
+    color: #00949c;
+}
+
+.profile-card .tab-titles li{
+    margin: 0 0.5rem;
+    position: relative;
+}
+
+.profile-card .tab-titles li.active-link{
+    color: #69D1C5;
+}
+
+.profile-card .tab-titles li::after{
+    content: '';
+    display: block;
+    background: #69D1C5;
+    width: 0%;
+    height: 2px;
+    transition: width 0.5s;
+}
+
+.profile-card .tab-titles li.active-link::after{
+    width: 100%;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
 }
 
 .profile-card p {
@@ -428,33 +423,28 @@ nav .logo-image img {
     text-align: justify;
 }
 
-.profile-card span {
-    color: #69D1C5;
+.profile-image {
+    max-width: 50%;
+    padding: 0.5rem;
 }
 
 .profile-card img {
     max-width: 100%;
     border-radius: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
-.profile-card span {
-    max-width: 100%;
-}
 
-@media only screen and (max-width: 480px){
-    .contain-profiles{
+@media only screen and (max-width: 480px) {
+    .contain-profiles {
         flex-wrap: wrap;
     }
-} */
-
+}
 
 /* -------------Footer------------ */
 
 .container-footer {
     display: flex;
     flex-wrap: wrap;
-    /* margin-top: 20px; */
     padding-top: 20px;
     justify-content: space-around;
     align-items: flex-start;
