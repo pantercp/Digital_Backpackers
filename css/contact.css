@@ -226,38 +226,76 @@ nav .logo-image img {
     height: 100%;
 }
 
-/* --------Content------- */
 
 .content {
     background-color: #69D1C5;
     color: #172a3a;
 }
 
+
+/* --------Hero------- */
+
+
 .hero-banner{
     background-image: url(../images/desert.jpg);
     background-size: cover;
-    height: 600px;
+    height: 700px;
     background-position: 0 60%;
 }
 
 .intro-about {
-    position: relative;
-    display: inline;
+    position: absolute;
     max-width: 600px;
-    top: 25%;
-    right: 0%;
+    top: 30%;
+    right: 5%;
+    background-color: #172a3acc;
+    color: #69D1C5;
+    padding: 1rem;
+    border-radius: 0.5rem;
 }
 
 .intro-about h1 {
-    margin: 0.5rem 0;
     text-align: center;
+    margin-bottom: 0.5rem;
 }
 
 .intro-about p {
     text-align: justify;
-    max-width: 100%;
 }
 
+@media only screen and (max-width: 1100px) {
+
+    .hero-banner{
+        background-position: 43% 60%;
+    }
+
+    .intro-about {
+        right: 5%;
+        max-width: 400px;
+    }
+    
+    .intro-about h1 {
+        font-size: 1.8rem;
+    }
+    
+    .intro-about p {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .intro-about {
+        position: unset;
+        max-width: 100%;
+        color: #172a3a;
+        background-color: #69D1C5;
+    }
+    .hero-banner{
+        background-position: 17% 60%;
+    }
+
+}
 /* -------------Travel Stats------------ */
 
 .contain-travel-stats {
