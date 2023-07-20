@@ -271,7 +271,7 @@ nav .logo-image img {
 
     .intro-about {
         right: 5%;
-        max-width: 400px;
+        max-width: 55%;
     }
     
     .intro-about h1 {
@@ -341,6 +341,63 @@ nav .logo-image img {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #69D1C5;
+}
+
+.profile-card span{
+    color: #00949c;
+}
+
+.profile-card {
+    max-width: 280px;
+    background-color: #172a3a;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    color: #69D1C5;
+    border: 2px solid var(--secondary);
+    box-shadow: 0.3rem 0.3em 0.5rem rgb(23, 42, 58, 0.7);
+    border-radius: 0.5rem;
+}
+
+.profile-card h3 {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.profile-card h4 {
+    font-size: 0.8rem;
+}
+
+.profile-card p {
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.profile-card img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-card span {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 480px){
+    .contain-profiles{
+        flex-wrap: wrap;
+    }
+}
+
+/* -------------Profiles------------ */
+/* 
+.contain-profiles {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-card {
@@ -389,7 +446,7 @@ nav .logo-image img {
     .contain-profiles{
         flex-wrap: wrap;
     }
-}
+} */
 
 
 /* -------------Footer------------ */
