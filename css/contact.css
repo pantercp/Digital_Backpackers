@@ -410,11 +410,11 @@ nav .logo-image img {
     width: 100%;
 }
 
-.tab-contents{
+.tab-content-type{
     display: none;
 }
 
-.tab-contents.active-tab{
+.tab-content-type.active-tab{
     display: block;
 }
 

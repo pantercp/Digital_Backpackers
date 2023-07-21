@@ -38,3 +38,17 @@ function opentab(tabname) {
   event.currentTarget.classList.add("active-link");
   document.getElementById(tabname).classList.add("active-tab")
 }
+
+var tablinks2 = document.getElementsByClassName("tab-links-2")
+var tabcontents2 = document.getElementsByClassName("tab-contents-2")
+
+function opentab2(tabname) {
+  for (tablink of tablinks2) {
+    tablink.classList.remove("active-link");
+  }
+  for (tabcontent of tabcontents2) {
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab")
+}
