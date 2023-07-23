@@ -422,6 +422,7 @@ nav .logo-image img {
 .profile-card p {
     font-size: 0.8rem;
     text-align: justify;
+    margin-bottom: 0.5rem;
 }
 
 .profile-image {
